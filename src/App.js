@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import ListaNomes from "./componentes/ListaNomes";
 import Main from "./componentes/Main/Main";
 import "./componentes/Relogio/Relogio.css"
 
@@ -29,6 +30,7 @@ function App() {
   return (
     <div className="App">
       <Main/>
+      <ListaNomes />
       <div className="Relogio">
         <h2>{Hora}:{Minuto}:{Segundo}</h2>
       </div>
